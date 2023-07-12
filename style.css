@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+}
+
+.list1 {
+    margin-right: 10px;
+    display: inline-block;
+    padding-right: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #909090
+}
+
+ul {
+    list-style: none;
+    margin-top: -41px;
+    margin-left: 267px;
+    padding-left: 22px;
+}
+
+.logo {
+    padding-left: 120px;
+    padding-top: 13px;
+}
+
+.header-lists2 {
+    padding-left: 720px;
+    padding-top: 9px;
+
+}
+
+.list2 {
+    margin-right: -21px;
+    display: inline-block;
+    padding-right: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #909090;
+}
+
+.banner1 {
+    background: url("images/bmw1.jpg");
+    height: 525px;
+    margin-top: 7px;
+}
+
+.banner1text {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 49px;
+    font-weight: 500;
+    padding-left: 130px;
+    padding-top: 132px;
+
+}
+
+#btn {
+    background-color: #1c69d4;
+    color: white;
+    height: 50px;
+    width: 175px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.button {
+    padding-top: 27px;
+    padding-left: 124px;
+}
+
+.list3 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 83px;
+    font-family: sans-serif;
+    margin-top: 72px;
+}
+
+.model-lists {
+    margin-left: -124px;
+    width: 976px;
+}
+
+#btn2{
+    background-color: #1c69d4;
+    color: white;
+    height: 50px;
+    width: 175px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.viewbutton{
+    margin-left: 1142px;
+    margin-top: -53px;
+}
+
+.list4{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 83px;
+    font-family: sans-serif;
+    margin-top: 72px;
+}
+
+.models{
+
+}
