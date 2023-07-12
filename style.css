@@ -81,9 +81,10 @@ ul {
 .model-lists {
     margin-left: -124px;
     width: 976px;
+    background-color: white;
 }
 
-#btn2{
+#btn2 {
     background-color: #1c69d4;
     color: white;
     height: 50px;
@@ -92,12 +93,12 @@ ul {
     border-radius: 3px;
 }
 
-.viewbutton{
+.viewbutton {
     margin-left: 1142px;
     margin-top: -53px;
 }
 
-.list4{
+.list4 {
     display: inline-block;
     font-size: 20px;
     font-weight: bold;
@@ -106,6 +107,41 @@ ul {
     margin-top: 72px;
 }
 
-.models{
-
+.models {
+    background-color: white;
 }
+
+.cars1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f1f1f1;
+}
+
+.cars2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f1f1f1;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.row1,
+.row2 {
+    height: 300px;
+    width: 300px;
+}
+
+.car-text {
+    color: #262626;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
