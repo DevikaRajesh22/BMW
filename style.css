@@ -138,10 +138,57 @@ img {
 
 .car-text {
     color: #262626;
-    font-size: 18px;
+    font-size: 12px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+}
+
+hr {
+    width: 1180px;
+}
+
+.footer-table {
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+#footertablehead {
+    font-size: 12px;
+    color: #262626;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footertabledata {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-left: 140px;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+
+#footerlabel{
+    font-size: 12px;
+    color: #8e8e8e;
+    line-height: 16px;
+    box-sizing: border-box;
+    margin-left: 145px;
 }
 
