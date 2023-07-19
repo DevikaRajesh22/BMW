@@ -2,6 +2,12 @@ body {
     margin: 0;
 }
 
+.header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
 .list1 {
     margin-right: 10px;
     display: inline-block;
@@ -36,6 +42,10 @@ ul {
     font-weight: bold;
     font-family: sans-serif;
     color: #909090;
+}
+
+.fa-solid fa-user{
+    padding-left: 55px;
 }
 
 .banner1 {
@@ -78,10 +88,11 @@ ul {
     margin-top: 72px;
 }
 
-.model-lists {
-    margin-left: -124px;
+.model-list {
+    margin-left: -185px;
     width: 976px;
     background-color: white;
+    margin-top: 41px;
 }
 
 #btn2 {
@@ -109,19 +120,21 @@ ul {
 
 .models {
     background-color: white;
+    margin-left: -189px;
+    
 }
 
 .cars1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: end;
     background-color: #f1f1f1;
 }
 
 .cars2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: end;
     background-color: #f1f1f1;
 }
 
@@ -138,7 +151,7 @@ img {
 
 .car-text {
     color: #262626;
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -239,3 +252,60 @@ hr {
     font-weight: bold;
     padding-bottom: 8px;
 }
+
+.cars{
+    background-color: #f1f1f1;
+    padding-right: 75px;
+}
+
+.range{
+    background-color: white;
+    height: 133px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 115px;;
+}
+
+.car-banner{
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.range-head, .range-price{
+    color: #262626;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 6px;
+    background-color: white;
+}
+
+.car-text-p{
+    color: #262626;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+ 
+.range-head{
+text-align: center;
+}
+
+.range-price{
+    text-align: center;
+}
+
+.range-text{
+    padding-top: 35px;
+}
+
+
